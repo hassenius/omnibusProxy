@@ -1,0 +1,7 @@
+applications:
+- name: omnibusproxy
+  memory: 48M
+  command: python app.py
+  path: .
+  env:
+  - omnibus_url: http://<insert URL here>
