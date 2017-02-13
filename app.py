@@ -1,7 +1,8 @@
 import os, json, requests
 from flask import Flask,request,Response
 
-port = int(os.getenv('VCAP_APP_PORT', 8081))
+port = int(os.getenv('PORT',8080))
+
 app = Flask(__name__)
 
 omnibusUrl = os.getenv('omnibus_url')
