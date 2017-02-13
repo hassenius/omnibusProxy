@@ -4,4 +4,4 @@ applications:
   command: python app.py
   path: .
   env:
-  - omnibus_url: http://<insert URL here>
+   omnibus_url: http://<insert URL here>
